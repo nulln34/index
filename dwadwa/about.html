@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - N&C Clothing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header (Üst Menü) -->
+    <script src="handle.js"></script>
+    <div class="announcement">
+        <img src="box.png" alt="Kutu İkonu">
+        <p><strong>300TL ve Üzeri Alışverişleriniz İçin Kargo Bedava</strong></p>
+    </div>
+    <header>
+        <div class="container">
+            <h1>N&C Clothing</h1>
+            <div class="menu" onclick="toggleMenu()"></div>
+            <div class="cart-container">
+                <button class="cart-button" onclick="toggleCart()">
+                    <img src="cart.png" alt="Sepet">
+                    <span class="cart-text">Sepetim</span>
+                    <span class="cart-counter">0</span>
+                </button>
+            </div>
+            <div class="login-container">
+                <a href="login.html">
+                    <button class="login-button">
+                        <img src="man.png">
+                        <span class="login-text">Kayıt Ol <font style="font-weight: bold;">veya</font> <br>Giriş Yap</span>
+                    </button>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="products.html">Ürünler</a></li>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Yan Menü -->
+    <aside class="side-menu" id="sideMenu">
+        <h2>N&C Clothing</h2>
+        <ul>
+            <li><a href="products.html">Ürünler</a></li>
+            <li><a href="products.html">Kadın & Çocuk Giyim</a></li>
+            <li><a href="products.html">Erkek Giyim</a></li>
+            <li><a href="products.html">Ayakkabı</a></li>
+            <li><a href="about.html">Hakkımızda</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><img src="face.png"></a>
+            <a href="#"><img src="twitter.png"></a>
+            <a href="#"><img src="insta.png"></a>
+            <!-- Diğer sosyal medya ikonları buraya eklenebilir -->
+        </div>
+    </aside>
+
+    <!-- Ana İçerik -->
+    <section class="about">
+        <div class="container">
+            <h2>Hakkımızda</h2>
+            <div class="about-info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet risus eget nisi aliquet pharetra.</p>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ultrices eget felis vel volutpat. Mauris auctor nisl ac magna consectetur, id feugiat orci malesuada. Duis interdum, felis sit amet convallis faucibus, risus magna fermentum lorem, vel pulvinar lectus risus sit amet urna. Vivamus et metus eget justo dignissim cursus.</p>
+                <p>Phasellus et nunc sit amet urna rutrum imperdiet. Nulla facilisi. Vivamus at sapien eu lorem fermentum consectetur sed et lectus. Curabitur vel libero at felis ultricies efficitur.</p>
+                <p>Şirketinizin veya markanızın hakkında bilgi girebilirsiniz. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet risus eget nisi aliquet pharetra.</p>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ultrices eget felis vel volutpat. Mauris auctor nisl ac magna consectetur, id feugiat orci malesuada. Duis interdum, felis sit amet convallis faucibus, risus magna fermentum lorem, vel pulvinar lectus risus sit amet urna. Vivamus et metus eget justo dignissim cursus.</p>
+                <p>Phasellus et nunc sit amet urna rutrum imperdiet. Nulla facilisi. Vivamus at sapien eu lorem fermentum consectetur sed et lectus. Curabitur vel libero at felis ultricies efficitur.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer (Alt Menü) -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>N&C CLOTHING</h3>
+                    <ul>
+                        <li><a href="contact.html">Yardım ve Destek</a></li>
+                        <li><a href="contact.html">Kurumsal</a></li>
+                        <li><a href="about.html">About N&C Clothing</a></li>
+                        <!-- Diğer bağlantılar buraya eklenebilir -->
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>MÜŞTERİ HİZMETLERİ</h3>
+                    <ul>
+                        <li><a href="contact.html">Yardım ve Destek</a></li>
+                        <li><a href="about.html">Kurumsal</a></li>
+                        <li><a href="about.html">About N&C Clothing</a></li>
+                        <!-- Diğer bağlantılar buraya eklenebilir -->
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>HESABIM</h3>
+                    <ul>
+                        <li><a href="cart.html">Siparişlerim</a></li>
+                        <li><a href="contact.html">Adreslerim</a></li>
+                        <li><a href="index.html">Üyelik Bilgilerim</a></li>
+                        <!-- Diğer bağlantılar buraya eklenebilir -->
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <div class="logo1"></div>
+                    <p> &nbsp;&nbsp;&nbsp; BİZİ TAKİP EDİN</p>
+                    <div class="social-icons1">
+                        <div class="icon1"></div>
+                        <div class="icon2"></div>
+                        <div class="icon3"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 N&C Clothing. Tüm hakları saklıdır.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Site Haritası</a></li>
+                    <li><a href="#">Gizlilik Politikası</a></li>
+                    <li><a href="#">Kullanım Koşulları</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

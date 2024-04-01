@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - N&C Clothing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header (Üst Menü) -->
+    <script src="handle.js"></script>
+    <div class="announcement">
+        <img src="box.png" alt="Kutu İkonu">
+        <p><strong>300TL ve Üzeri Alışverişleriniz İçin Kargo Bedava</strong></p>
+    </div>
+    <header>
+        <div class="container">
+            <h1>N&C Clothing</h1>
+            <div class="menu" onclick="toggleMenu()"></div>
+            <div class="cart-container">
+                <button class="cart-button" onclick="toggleCart()">
+                    <img src="cart.png" alt="Sepet">
+                    <span class="cart-text">Sepetim</span>
+                    <span class="cart-counter">0</span>
+                </button>
+            </div>
+
+            <div class="login-container">
+                <a href="login.html">
+                    <button class="login-button">
+                        <img src="man.png">
+                        <span class="login-text">Kayıt Ol <font style="font-weight: bold;">veya</font> <br>Giriş Yap</span>
+                    </button>
+                </a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="products.html">Ürünler</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="#">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <aside class="side-menu" id="sideMenu">
+        <h2>N&C Clothing</h2>
+        <ul>
+            <li><a href="products.html">Ürünler</a></li>
+            <li><a href="products.html">Kadın & Çocuk Giyim</a></li>
+            <li><a href="products.html">Erkek Giyim</a></li>
+            <li><a href="products.html">Ayakkabı</a></li>
+            <li><a href="about.html">Hakkımızda</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><img src="face.png"></a>
+            <a href="#"><img src="twitter.png"></a>
+            <a href="#"><img src="insta.png"></a>
+            <!-- Diğer sosyal medya ikonları buraya eklenebilir -->
+        </div>
+    </aside>
+
+    <!-- İletişim Sayfası İçeriği -->
+    <main>
+        <div class="contact">
+            <div class="contact-info">
+                <h2>İletişim Bilgileri</h2>
+                <p><img src="telephone.png" alt="Phone Icon" width="20"> Telefon: 216-456-7890</p>
+                <p><img src="mail.png" alt="Email Icon" width="20"> Email: info@nullwater.com</p>
+                <p><img src="home.png" alt="Address Icon" width="20"> Adres: Huzur Mahallesi, Selma Sokak No: 123, Ümraniye İlçe, İstanbul Şehir</p>
+            </div>
+            <div class="map">
+                <!-- Google Haritalar iframe kodu buraya gelecek -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.9501943185883!2d28.987600715301507!3d41.068024579297434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDEyJzI4LjUiTiAyOMKwNTUnMzQuMCJF!5e0!3m2!1str!2str!4v1649193532925!5m2!1str!2str" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Alt Menü) -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>N&C CLOTHING</h3>
+                    <ul>
+                        <li><a href="contact.html">Yardım ve Destek</a></li>
+                        <li><a href="contact.html">Kurumsal</a></li>
+                        <li><a href="about.html">About N&C Clothing</a></li>
+                        <!-- Diğer bağlantılar buraya eklenebilir -->
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>MÜŞTERİ HİZMETLERİ</h3>
+                    <ul>
+                        <li><a href="contact.html">Yardım ve Destek</a></li>
+                        <li><a href="about.html">Kurumsal</a></li>
+                        <li><a href="about.html">About N&C Clothing</a></li>
+                        <!-- Diğer bağlantılar buraya eklenebilir -->
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>HESABIM</h3>
+                    <ul>
+                        <li><a href="cart.html">Siparişlerim</a></li>
+                        <li><a href="contact.html">Adreslerim</a></li>
+                        <li><a href="index.html">Üyelik Bilgilerim</a></li>
+                        <!-- Diğer bağlantılar buraya eklenebilir -->
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <div class="logo1"></div>
+                    <p> &nbsp;&nbsp;&nbsp; BİZİ TAKİP EDİN</p>
+                    <div class="social-icons1">
+                        <div class="icon1"></div>
+                        <div class="icon2"></div>
+                        <div class="icon3"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 N&C Clothing. Tüm hakları saklıdır.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Site Haritası</a></li>
+                    <li><a href="#">Gizlilik Politikası</a></li>
+                    <li><a href="#">Kullanım Koşulları</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
